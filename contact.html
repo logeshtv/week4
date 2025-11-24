@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Poetry Collection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header"><div class="wrap"><a class="logo" href="index.html">Poetry Collection</a><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></div></header>
+  <main class="wrap content-page">
+    <h1>Contact</h1>
+    <p class="lede">Have a question or suggestion? Send a short message and I'll get back to you.</p>
+
+    <form id="contactForm" novalidate>
+      <div class="field">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name">
+        <div id="nameError" class="error-text" aria-live="polite"></div>
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com">
+        <div id="emailError" class="error-text" aria-live="polite"></div>
+      </div>
+
+      <div class="field">
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" type="text" placeholder="Short subject">
+        <div id="subjectError" class="error-text" aria-live="polite"></div>
+      </div>
+
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message (min 10 characters)"></textarea>
+        <div id="messageError" class="error-text" aria-live="polite"></div>
+      </div>
+
+      <div class="actions">
+        <button class="btn" type="submit">Send message</button>
+        <button class="btn" type="reset">Reset</button>
+      </div>
+
+      <div id="successMessage" class="success-message" style="display:none;margin-top:12px">Submitted — thank you!</div>
+    </form>
+
+    <p style="color:var(--muted);margin-top:10px">This is a static demo — submission is handled client-side with a simple validation and confirmation alert.</p>
+  </main>
+  <script src="validate.js" defer></script>
+  <footer class="site-footer">
+    <div class="wrap">© Week 4</div>
+  </footer>
+</body>
+</html>
