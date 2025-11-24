@@ -251,3 +251,81 @@ body {
   border-radius: 8px;
   color: #064e3b;
 }
+
+.quick-info {
+  background: rgba(255, 140, 66, 0.08);
+  border-left: 4px solid var(--accent);
+  padding: 12px 14px;
+  border-radius: 6px;
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.about-section {
+  margin: 24px 0;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.about-section h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+.about-section p {
+  color: var(--muted);
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+.about-section a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
+}
+
+.about-list {
+  list-style-position: inside;
+  color: var(--muted);
+  line-height: 1.8;
+  padding-left: 12px;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+}
+
+.about-list strong {
+  color: var(--text);
+}
+
+.btn-primary {
+  background: var(--accent);
+}
+
+.btn-secondary {
+  background: var(--border);
+  color: var(--text);
+}
+
+.btn-secondary:hover {
+  background: #d1d5db;
+}
+
+.contact-info {
+  background: var(--card);
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.contact-info h3 {
+  margin-bottom: 10px;
+  color: var(--text);
+}
